@@ -1,15 +1,27 @@
-# Dask Binder template
+# Inside Dask
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jrbourbeau/dask-binder-template/main?urlpath=lab)
+PyData DC | August 2021
 
-A template for Dask-enabled repositories for use on [Binder](https://mybinder.org/). Specifically, this template ensures that Dask and [Dask's JupyterLab extension](https://github.com/dask/dask-labextension) are installed and configured for use on mybinder.org.
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jsignell/inside-dask/main?urlpath=lab)
 
-## How to use
 
-1. Click the "Use this template" button
-2. Change files in the ``binder/`` directory to customize your Jupyter environment
-3. Add new notebooks
-4. Change the ![Binder](https://mybinder.org/badge_logo.svg) button URL below to point to your repository (i.e. change `jrbourbeau/dask-binder-template` to your repository)
-5. Share with your friends and colleagues!
+## Description
 
-This template was inspired by [Pangeo's binder template](https://github.com/pangeo-data/pangeo-binder-template) and my own need to repeatedly create repositories with Dask's JupyterLab extension configured.
+Get to know some of the lesser-known aspects of Dask! Like how to manipulate the task graph and how to map functions across dataframes and arrays. Walk away with a deeper understanding of how Dask works and gain the confidence to get your weirder workflows working with Dask.
+
+## Contents
+
+* Dask Overview
+* Understanding the Task Graph
+* Blocked functions
+* Iterate over blocks
+* Using Dask Delayed
+* Mapping over blocks
+* Graph manipulation
+
+## Prior Material
+
+This talk is based on the Hacking Dask tutorial that James Bourbeau and I gave at PyCon and at the Dask Distributed Summit.
+
+* Materials: https://github.com/jrbourbeau/hacking-dask
+* Recording: https://www.youtube.com/watch?v=KZkkVYRZcDA

@@ -1,9 +1,9 @@
-name: dask-binder-template
+name: inside-dask
 channels:
   - conda-forge
 dependencies:
   - python=3.9
-  - dask=2021.03.0
+  - dask=2021.07.1
   # JupyterLab extensions
   - jupyterlab>=3
   - dask-labextension

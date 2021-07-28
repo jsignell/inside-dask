@@ -12,11 +12,11 @@ Get to know some of the lesser-known aspects of Dask! Like how to manipulate the
 ## Contents
 
 * Dask Overview
-* Understanding the Task Graph
-* Blocked functions
+* Blocks
 * Iterate over blocks
-* Using Dask Delayed
 * Mapping over blocks
+* Using Dask Delayed
+* Understanding the Task Graph
 * Graph manipulation
 
 ## Prior Material

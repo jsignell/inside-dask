@@ -21,7 +21,7 @@ Get to know some of the lesser-known aspects of Dask! Like how to manipulate the
 
 ## Prior Material
 
-This talk is based on the Hacking Dask tutorial that James Bourbeau and I gave at PyCon and at the Dask Distributed Summit.
+This talk is based on the Hacking Dask tutorial that [James Bourbeau](https://github.com/jrbourbeau) and I gave at PyCon and at the Dask Distributed Summit.
 
 * Materials: https://github.com/jrbourbeau/hacking-dask
 * Recording: https://www.youtube.com/watch?v=KZkkVYRZcDA

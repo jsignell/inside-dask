@@ -5,6 +5,7 @@ dependencies:
   - python=3.9
   - dask=2021.07.1
   - python-graphviz
+  - matplotlib
   # JupyterLab extensions
   - jupyterlab>=3
   - dask-labextension

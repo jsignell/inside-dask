@@ -22,6 +22,7 @@ Get to know some of the lesser-known aspects of Dask! Like how to manipulate the
 * [Iterate over blocks](./4-iterate-over-blocks.ipynb)
 * [Using Dask Delayed](./5-delayed.ipynb)
 * [Manipulating the Task Graph](./6-manipulate-task-graphs.ipynb)
+* [Distributed Clusters](./7-distributed.ipynb)
 
 ## Prior Material
 

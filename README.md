@@ -1,6 +1,11 @@
+<img src="images/dask_horizontal.svg"
+     width="300px"
+     alt="Dask logo">
+     
+
 # Inside Dask
 
-PyData DC | August 2021
+Julia Signell | PyData DC | August 2021
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jsignell/inside-dask/main?urlpath=lab)
 
@@ -11,12 +16,12 @@ Get to know some of the lesser-known aspects of Dask! Like how to manipulate the
 
 ## Contents
 
-* Dask Overview
-* Blocks
-* Understanding the Task Graph
-* Iterate over blocks
-* Using Dask Delayed
-* Manipulating the Task Graph
+* [Dask Overview](./1-overview.ipynb)
+* [Blocks](./2-blocks.ipynb)
+* [Understanding the Task Graph](./3-task-graphs.ipynb)
+* [Iterate over blocks](./4-iterate-over-blocks.ipynb)
+* [Using Dask Delayed](./5-delayed.ipynb)
+* [Manipulating the Task Graph](./6-manipulate-task-graphs.ipynb)
 
 ## Prior Material
 

@@ -16,12 +16,12 @@ Get to know some of the lesser-known aspects of Dask! Like how to manipulate the
 
 ## Contents
 
-* [Dask Overview](./1-overview.ipynb)
-* [Blocks](./2-blocks.ipynb)
-* [Understanding the Task Graph](./3-task-graphs.ipynb)
-* [Iterate over blocks](./4-iterate-over-blocks.ipynb)
-* [Using Dask Delayed](./5-delayed.ipynb)
-* [Manipulating the Task Graph](./6-manipulate-task-graphs.ipynb)
+* [Dask Overview](1-overview)
+* [Blocks](2-blocks)
+* [Understanding the Task Graph](3-task-graphs)
+* [Iterate over blocks](4-iterate-over-blocks)
+* [Using Dask Delayed](5-delayed)
+* [Manipulating the Task Graph](6-manipulate-task-graphs)
 
 ## Prior Material
 

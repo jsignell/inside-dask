@@ -58,14 +58,6 @@ span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 
 .highlight .il { color: var(--jp-mirror-editor-number-color) } /* Literal.Number.Integer.Long */
   </style>
 <style type="text/css">
-    .nbhero{
-    background-image: url("https://www.saturncloud.io/s/wp-content/uploads/2020/07/scalability.jpg");
-    height: 500px;
-    width: 100%;
-    font-family: 'Lato', sans-serif;
-    text-align: center;
-    color: white;
-}
 .nb.title{
     font-size: 3em;
     padding-top: 3em;
@@ -13998,10 +13990,10 @@ a.anchor-link {
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <p><img src="images/dask_horizontal.svg"
-     width="45%"
+     width="300px"
      alt="Dask logo"></p>
-<h1 id="Overview">Overview<a class="anchor-link" href="#Overview">&#182;</a></h1><p>This notebook provides a high-level overview of Dask.</p>
-
+<h1 id="Overview">Overview<a class="anchor-link" href="#Overview">&#182;</a></h1><p>If you have experimented with Dask before, you have likely seen examples using Dask Dataframe and Dask Array. These are some of the <strong>high-level</strong> interfaces to Dask. They mimic pandas and numpy.</p>
+<h2 id="Dask-Array---numpy-like">Dask Array - numpy-like<a class="anchor-link" href="#Dask-Array---numpy-like">&#182;</a></h2>
 </div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
@@ -14164,7 +14156,7 @@ a.anchor-link {
 
 
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
-<pre>500249.10848439386</pre>
+<pre>499402.7937992102</pre>
 </div>
 
 </div>
@@ -14256,7 +14248,7 @@ a.anchor-link {
 
 
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
-<pre>1000.4982169687877</pre>
+<pre>998.8055875984204</pre>
 </div>
 
 </div>
@@ -14265,6 +14257,11 @@ a.anchor-link {
 
 </div>
 
+</div>
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h2 id="Dask-Dataframe---pandas-like">Dask Dataframe - pandas-like<a class="anchor-link" href="#Dask-Dataframe---pandas-like">&#182;</a></h2>
+</div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
@@ -14516,159 +14513,159 @@ a.anchor-link {
   <tbody>
     <tr>
       <th>Alice</th>
-      <td>99768837</td>
-      <td>185.337198</td>
-      <td>81.173444</td>
+      <td>99471866</td>
+      <td>6.861049</td>
+      <td>133.713935</td>
     </tr>
     <tr>
       <th>Bob</th>
-      <td>99443919</td>
-      <td>279.758783</td>
-      <td>-49.040734</td>
+      <td>99772481</td>
+      <td>171.455373</td>
+      <td>-44.098274</td>
     </tr>
     <tr>
       <th>Charlie</th>
-      <td>99171359</td>
-      <td>342.464089</td>
-      <td>-71.074021</td>
+      <td>99725407</td>
+      <td>108.570741</td>
+      <td>-291.881911</td>
     </tr>
     <tr>
       <th>Dan</th>
-      <td>99692863</td>
-      <td>-108.413507</td>
-      <td>-79.750082</td>
+      <td>100322056</td>
+      <td>91.235424</td>
+      <td>-46.241773</td>
     </tr>
     <tr>
       <th>Edith</th>
-      <td>99609467</td>
-      <td>286.704896</td>
-      <td>380.799098</td>
+      <td>99579848</td>
+      <td>-329.833788</td>
+      <td>-151.269809</td>
     </tr>
     <tr>
       <th>Frank</th>
-      <td>99988000</td>
-      <td>344.055723</td>
-      <td>190.929883</td>
+      <td>99777555</td>
+      <td>117.027888</td>
+      <td>146.474321</td>
     </tr>
     <tr>
       <th>George</th>
-      <td>99832574</td>
-      <td>24.674650</td>
-      <td>185.637220</td>
+      <td>99831396</td>
+      <td>52.106866</td>
+      <td>-98.512041</td>
     </tr>
     <tr>
       <th>Hannah</th>
-      <td>99805002</td>
-      <td>-93.817088</td>
-      <td>-22.496143</td>
+      <td>99842579</td>
+      <td>-49.756484</td>
+      <td>-49.199558</td>
     </tr>
     <tr>
       <th>Ingrid</th>
-      <td>100273281</td>
-      <td>266.156673</td>
-      <td>-135.103204</td>
+      <td>99898315</td>
+      <td>267.491522</td>
+      <td>58.780990</td>
     </tr>
     <tr>
       <th>Jerry</th>
-      <td>100299144</td>
-      <td>-104.433171</td>
-      <td>-390.771582</td>
+      <td>99502942</td>
+      <td>-55.810695</td>
+      <td>-130.659417</td>
     </tr>
     <tr>
       <th>Kevin</th>
-      <td>99746200</td>
-      <td>35.032074</td>
-      <td>177.485674</td>
+      <td>100026028</td>
+      <td>346.595636</td>
+      <td>257.633773</td>
     </tr>
     <tr>
       <th>Laura</th>
-      <td>100284434</td>
-      <td>147.054350</td>
-      <td>153.900635</td>
+      <td>99742735</td>
+      <td>-490.938969</td>
+      <td>47.781585</td>
     </tr>
     <tr>
       <th>Michael</th>
-      <td>99950665</td>
-      <td>-23.320488</td>
-      <td>60.751379</td>
+      <td>99710728</td>
+      <td>-195.003555</td>
+      <td>-126.870532</td>
     </tr>
     <tr>
       <th>Norbert</th>
-      <td>99162296</td>
-      <td>-55.692872</td>
-      <td>-117.490848</td>
+      <td>99675880</td>
+      <td>-55.471573</td>
+      <td>-40.940813</td>
     </tr>
     <tr>
       <th>Oliver</th>
-      <td>99443382</td>
-      <td>206.212790</td>
-      <td>42.765997</td>
+      <td>99721079</td>
+      <td>-35.089300</td>
+      <td>78.647145</td>
     </tr>
     <tr>
       <th>Patricia</th>
-      <td>99197950</td>
-      <td>-76.932656</td>
-      <td>-21.005034</td>
+      <td>99560025</td>
+      <td>-220.348945</td>
+      <td>-96.483981</td>
     </tr>
     <tr>
       <th>Quinn</th>
-      <td>99737041</td>
-      <td>-111.044437</td>
-      <td>11.752794</td>
+      <td>99395663</td>
+      <td>-188.809445</td>
+      <td>142.053539</td>
     </tr>
     <tr>
       <th>Ray</th>
-      <td>99884517</td>
-      <td>84.799612</td>
-      <td>122.109480</td>
+      <td>99505120</td>
+      <td>95.708348</td>
+      <td>-98.286645</td>
     </tr>
     <tr>
       <th>Sarah</th>
-      <td>99500311</td>
-      <td>265.577748</td>
-      <td>133.453889</td>
+      <td>99433056</td>
+      <td>43.633079</td>
+      <td>-7.031878</td>
     </tr>
     <tr>
       <th>Tim</th>
-      <td>99534478</td>
-      <td>99.412544</td>
-      <td>388.290544</td>
+      <td>99732354</td>
+      <td>54.084280</td>
+      <td>208.882265</td>
     </tr>
     <tr>
       <th>Ursula</th>
-      <td>99413678</td>
-      <td>284.080401</td>
-      <td>111.323326</td>
+      <td>99595299</td>
+      <td>106.582424</td>
+      <td>62.974154</td>
     </tr>
     <tr>
       <th>Victor</th>
-      <td>98985422</td>
-      <td>-97.603173</td>
-      <td>-148.989045</td>
+      <td>99899222</td>
+      <td>66.231681</td>
+      <td>-243.497115</td>
     </tr>
     <tr>
       <th>Wendy</th>
-      <td>99778494</td>
-      <td>-99.548905</td>
-      <td>-39.198538</td>
+      <td>99312453</td>
+      <td>37.550851</td>
+      <td>-17.700951</td>
     </tr>
     <tr>
       <th>Xavier</th>
-      <td>99966550</td>
-      <td>57.415539</td>
-      <td>-208.823486</td>
+      <td>99599375</td>
+      <td>-73.828717</td>
+      <td>299.103557</td>
     </tr>
     <tr>
       <th>Yvonne</th>
-      <td>99585900</td>
-      <td>82.148851</td>
-      <td>-272.003401</td>
+      <td>100074852</td>
+      <td>180.314869</td>
+      <td>180.933322</td>
     </tr>
     <tr>
       <th>Zelda</th>
-      <td>99880718</td>
-      <td>143.712512</td>
-      <td>-14.881031</td>
+      <td>99259503</td>
+      <td>42.948758</td>
+      <td>-152.780945</td>
     </tr>
   </tbody>
 </table>
@@ -14752,30 +14749,30 @@ Dask Name: loc, 151 tasks</pre>
 
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
 <pre>timestamp
-2000-01-15 00:00:00    0.001242
-2000-01-15 01:00:00   -0.007987
-2000-01-15 02:00:00   -0.003130
-2000-01-15 03:00:00    0.002457
-2000-01-15 04:00:00    0.001848
-2000-01-15 05:00:00    0.009128
-2000-01-15 06:00:00    0.005791
-2000-01-15 07:00:00   -0.009009
-2000-01-15 08:00:00   -0.000840
-2000-01-15 09:00:00   -0.005261
-2000-01-15 10:00:00    0.015685
-2000-01-15 11:00:00   -0.000386
-2000-01-15 12:00:00   -0.002518
-2000-01-15 13:00:00   -0.018717
-2000-01-15 14:00:00   -0.003109
-2000-01-15 15:00:00    0.012616
-2000-01-15 16:00:00    0.007949
-2000-01-15 17:00:00   -0.000361
-2000-01-15 18:00:00    0.002184
-2000-01-15 19:00:00    0.018473
-2000-01-15 20:00:00   -0.003559
-2000-01-15 21:00:00   -0.009773
-2000-01-15 22:00:00    0.008943
-2000-01-15 23:00:00   -0.006952
+2000-01-15 00:00:00    0.010561
+2000-01-15 01:00:00   -0.004215
+2000-01-15 02:00:00   -0.003270
+2000-01-15 03:00:00   -0.019291
+2000-01-15 04:00:00    0.006350
+2000-01-15 05:00:00   -0.003493
+2000-01-15 06:00:00   -0.007759
+2000-01-15 07:00:00   -0.010106
+2000-01-15 08:00:00    0.004835
+2000-01-15 09:00:00   -0.010384
+2000-01-15 10:00:00    0.009963
+2000-01-15 11:00:00   -0.000262
+2000-01-15 12:00:00    0.017461
+2000-01-15 13:00:00   -0.002382
+2000-01-15 14:00:00   -0.005764
+2000-01-15 15:00:00    0.012433
+2000-01-15 16:00:00   -0.023390
+2000-01-15 17:00:00    0.020341
+2000-01-15 18:00:00   -0.001779
+2000-01-15 19:00:00   -0.012001
+2000-01-15 20:00:00    0.001050
+2000-01-15 21:00:00    0.001999
+2000-01-15 22:00:00   -0.005434
+2000-01-15 23:00:00    0.002658
 Freq: H, Name: x, dtype: float64</pre>
 </div>
 

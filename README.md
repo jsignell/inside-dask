@@ -9,7 +9,6 @@ Julia Signell | PyData DC | August 2021
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jsignell/inside-dask/main?urlpath=lab)
 
-
 ## Description
 
 Get to know some of the lesser-known aspects of Dask! Like how to manipulate the task graph and how to map functions across dataframes and arrays. Walk away with a deeper understanding of how Dask works and gain the confidence to get your weirder workflows working with Dask.
@@ -23,6 +22,9 @@ Get to know some of the lesser-known aspects of Dask! Like how to manipulate the
 * [Using Dask Delayed](./5-delayed.ipynb)
 * [Manipulating the Task Graph](./6-manipulate-task-graphs.ipynb)
 * [Distributed Clusters](./7-distributed.ipynb)
+
+## Recording
+A recording of this talk can be found here: https://www.youtube.com/watch?v=X95WO41abXo
 
 ## Prior Material
 
